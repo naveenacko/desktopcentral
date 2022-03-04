@@ -1,1 +1,0 @@
-msiexec /i DesktopCentralAgent.msi TRANSFORMS="DesktopCentralAgent.mst" ENABLESILENT=yes REBOOT=ReallySuppress INSTALLSOURCE=Manual SERVER_ROOT_CRT="%cd%\DMRootCA-Server.crt" DS_ROOT_CRT="%cd%\DMRootCA.crt" /qn /lv Agentinstalllog.txt
